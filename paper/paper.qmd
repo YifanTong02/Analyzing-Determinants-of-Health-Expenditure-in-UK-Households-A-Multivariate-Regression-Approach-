@@ -2,7 +2,7 @@
 title: "Analyzing Determinants of Health Expenditure in UK Households: A Multivariate Regression Approach"
 author: 
   - yifan tong
-thanks: "Code and data are available at: LINK."
+thanks: "Code and data are available at: https://github.com/YifanTong02/Analyzing-Determinants-of-Health-Expenditure-in-UK-Households-A-Multivariate-Regression-Approach-"
 date: today
 date-format: long
 abstract: "This study explores the factors influencing health expenditure in UK households, a critical issue within the contexts of public health and economic policy. Utilizing data from the Living Costs and Food Survey UK Data Archive, this research employs multiple linear regression models to analyze the impact of demographic, economic, income, housing, occupational, and geographic variables on health expenditure. The analysis reveals a significant positive association between household size and health expenditure, suggesting that larger households face higher health costs. Additionally, the age of the oldest household member and household income significantly predict health expenses, emphasizing the effects of age-related health needs and economic status on healthcare access and affordability. The study also considers the number of rooms in accommodation and occupational class as predictors, reflecting broader socio-economic impacts on health expenditure. Despite a low R-squared value in the models, indicating that other unmeasured factors might also influence health costs, the findings provide valuable insights for policymakers and healthcare providers aiming to enhance healthcare resource management. Future research could further refine these models by considering non-linear relationships and more complex interactions between the variables"
@@ -31,7 +31,7 @@ library(lmtest)
 library(knitr)
 library(kableExtra)
 
-df <- read.csv("../data/raw_data/data.csv")
+df <- read.csv("../data/analysis_data/data.csv")
 ```
 
 # Introduction
